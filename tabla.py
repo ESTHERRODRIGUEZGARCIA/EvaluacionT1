@@ -2,8 +2,8 @@
 
 def tabla():
     
-    fila = int(input("Introduzca un argumento "))
-    columna = int(input("Introduzca un argumento "))
+    fila = int(input("Introduzca un número de filas "))
+    columna = int(input("Introduzca un número de columnas "))
 
     if fila < 1 or fila > 9 or columna < 1 or columna > 9:
         print("Error.")
@@ -11,6 +11,6 @@ def tabla():
     else:
         for i in range(fila):
             print(" ")
-            for i in range(columna):
+            for j in range(columna):
                 print(" * ", end='')
 
