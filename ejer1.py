@@ -14,4 +14,5 @@ def sum(matriz):
     for i in matriz():
         matriz[[1][3]] = sum(matriz[1][:-1])
 
-        
+        matriz()
+
