@@ -1,5 +1,5 @@
 def tabla():
-    fila = input("Introduzca un argumento ")
+    fila = int(input("Introduzca un argumento "))
     print(fila)
     columna = input("Introduzca un argumento ")
     print(columna)
