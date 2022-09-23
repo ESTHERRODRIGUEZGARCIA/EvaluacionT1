@@ -9,4 +9,7 @@ matriz = [
     [4, 4, 4, 13]
 
 ]
-sum(matriz)
+
+def sum(matriz):
+    for i in matriz():
+        
