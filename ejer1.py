@@ -6,11 +6,11 @@ matriz = [
     [3, 3, 3, 9],
 
     [4, 4, 4, 13]
-    ]
+]
 def sum(matriz):
 
-    for i in matriz():
-        matriz[1][-1] = sum(matriz[1][:-1])
-        matriz[3][-1] = sum( matriz[3][:-1])
+        for i in matriz():
+            matriz[1][3] = sum(matriz[1][:-1])
+            matriz[3][3] = sum( matriz[3][:-1])
 
-    matriz()
+        matriz()
