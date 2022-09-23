@@ -10,6 +10,7 @@ def tabla():
 
     else:
         for i in range(fila):
+            print(" ")
             for i in range(columna):
                 print(" * ", end='')
 
