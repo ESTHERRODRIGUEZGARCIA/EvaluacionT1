@@ -1,13 +1,10 @@
 
-fila = int(input("Introduzca un argumento "))
-    
-columna = input("Introduzca un argumento ")
 
 def tabla():
-
     
-    print(fila)
-    print(columna)
+    fila = int(input("Introduzca un argumento "))
+    columna = int(input("Introduzca un argumento "))
+
     if fila in range (0,9):
         print()
     else:
