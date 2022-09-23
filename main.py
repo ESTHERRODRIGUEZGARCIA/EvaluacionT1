@@ -1,8 +1,8 @@
 
-import ejer1
-import ejer2
-import ejer3
-import tabla
+from ejercicios import ejer1
+from ejercicios import ejer2
+from ejercicios import ejer3
+from ejercicios import tabla
 
 
 variable = int(input("Seleccione que ejercicio desea ejecutar: \n1. \n2. \n3. \n4. \n"))
