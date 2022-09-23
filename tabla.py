@@ -1,6 +1,8 @@
 def tabla():
     fila = input("Introduzca un argumento ")
+    print(fila)
     columna = input("Introduzca un argumento ")
+    print(columna)
     if fila in range (0,9):
         print()
     else:
