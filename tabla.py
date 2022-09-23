@@ -1,7 +1,7 @@
 
 
 def tabla():
-    
+
     fila = int(input("Introduzca un número de filas "))
     columna = int(input("Introduzca un número de columnas "))
 
