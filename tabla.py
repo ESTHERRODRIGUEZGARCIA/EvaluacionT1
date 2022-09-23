@@ -1,7 +1,12 @@
+
+fila = int(input("Introduzca un argumento "))
+    
+columna = input("Introduzca un argumento ")
+
 def tabla():
-    fila = int(input("Introduzca un argumento "))
+
+    
     print(fila)
-    columna = input("Introduzca un argumento ")
     print(columna)
     if fila in range (0,9):
         print()
@@ -17,3 +22,4 @@ def tabla():
     for i in range(fila):
             for i in range(columna):
                 print(" * ", end='')
+
