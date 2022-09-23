@@ -1,4 +1,4 @@
-class Ejer1():
+class Ejer():
     matriz = [
     [1, 1, 1, 3],
 
