@@ -37,7 +37,7 @@ class Ejer3():
         print(list(range(0, 51, 5)))
 
 class tabla():
-    
+
 
     def tabla():
 
