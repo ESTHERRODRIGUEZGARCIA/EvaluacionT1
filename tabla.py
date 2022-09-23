@@ -12,4 +12,8 @@ def tabla():
         print()
     else:
         print("Error.")
-    
+
+
+    for i in range(fila):
+            for i in range(columna):
+                print(" * ", end='')
